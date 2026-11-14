@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# Tests and type checkers
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Training outputs
+checkpoints/
+runs/
+*.pt
+*.pth
+*.ckpt
+
+# Local environment
+.env
+.DS_Store
+
+.workbuddy
+docs/

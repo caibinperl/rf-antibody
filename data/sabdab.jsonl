@@ -1,0 +1,6 @@
+{"pdb": "data/examples/sabdab/2p45_B_nan_A.pdb", "cluster": "2p42_D_nan_C", "pdb_id": "2p45", "bucket": "vhh_protein", "resolution": "1.1", "antigen_name": "ribonuclease pancreatic", "antigen_type": "protein"}
+{"pdb": "data/examples/sabdab/6jb2_A_nan_B.pdb", "cluster": "6jb2_A_nan_B", "pdb_id": "6jb2", "bucket": "vhh_protein", "resolution": "1.5", "antigen_name": "lysozyme c", "antigen_type": "protein"}
+{"pdb": "data/examples/sabdab/6ddm_B_A_C.pdb", "cluster": "6ddm_B_A_C", "pdb_id": "6ddm", "bucket": "fab_protein", "resolution": "1.3", "antigen_name": "mhc class i polypeptide-related sequence a", "antigen_type": "protein"}
+{"pdb": "data/examples/sabdab/5kvg_H_L_E.pdb", "cluster": "5kvg_H_L_E", "pdb_id": "5kvg", "bucket": "fab_protein", "resolution": "1.4", "antigen_name": "zika envelope diii", "antigen_type": "protein"}
+{"pdb": "data/examples/sabdab/6uce_H_L_C.pdb", "cluster": "6ucf_H_L_A", "pdb_id": "6uce", "bucket": "fab_peptide", "resolution": "1.382", "antigen_name": "hiv fusion peptide", "antigen_type": "peptide"}
+{"pdb": "data/examples/sabdab/6s0y_B_nan_D.pdb", "cluster": "6s0y_B_nan_D", "pdb_id": "6s0y", "bucket": "vhh_peptide", "resolution": "1.81", "antigen_name": "matrix protein 2", "antigen_type": "peptide"}

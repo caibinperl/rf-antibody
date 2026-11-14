@@ -1,0 +1,29 @@
+# Antibody RFdiffusion fine-tuning (Bennett et al., Nature 2025, SI section 3)
+# All remaining diffusion settings match vanilla RFdiffusion.
+
+epochs: 70
+examples_per_epoch: 512
+crop_size: 768
+pseudo_batch_size: 16
+lr: 0.0005
+warmup_steps: 100
+
+mixture:
+  sabdab: 0.50
+  tcr: 0.10
+  pdb_loop: 0.40
+
+diffusion:
+  T: 50
+  b0: 0.01
+  bT: 0.07
+  crd_scale: 0.25
+
+hotspots:
+  cutoff: 8.0
+  k: 5
+
+losses:
+  frame: 1.0
+  distogram: 1.0
+  mlm: 1.0

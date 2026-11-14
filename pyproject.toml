@@ -1,0 +1,19 @@
+[project]
+name = "rfab-finetune"
+version = "0.1.0"
+description = "Fine-tune RFdiffusion for antibody design (Bennett et al. 2025)"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+rfab-finetune = "rfab_finetune.train:main"
+
+[tool.setuptools.packages.find]
+include = ["rfab_finetune*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
